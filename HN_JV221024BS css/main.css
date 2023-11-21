@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font: san-seriffs;
+  font-size: 16px;
+  width: 100%;
+  gap: 0;
+  font-family: "Dancing Script", cursive;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 0;
+}
+
+/* Phần trên */
+.part1 {
+  background-image: url("/HN_JV221024BS css/z4900335413985_719e35a700e3ce9b777ef33485c69465.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: right;
+
+  margin: 0;
+}
+
+/* Nav bar */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 100px;
+  align-items: center;
+}
+
+.caption {
+  font-style: italic;
+}
+
+.caption:hover {
+  cursor: pointer;
+}
+
+.home-nav {
+  font-size: 30px;
+}
+
+.nav-item {
+  display: flex;
+}
+.nav-item-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0 20px;
+  list-style-type: none;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.nav-item-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 0 25px;
+  align-items: center;
+}
+
+.icon {
+  color: white;
+}
+
+button {
+  background-color: rgb(218, 176, 39);
+  height: 45px;
+  width: 140px;
+  border-radius: 14%;
+  padding: 8px 14px;
+  text-align: center;
+  border: 1px solid transparent;
+  color: #fff;
+  font-weight: 600;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+/* Phần thân 1 */
+.content-1 {
+  padding: 10px 100px;
+  gap: 10px;
+}
+.caption-1 {
+  font-size: 40px;
+}
+
+.main-content1 {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 20px;
+}
+
+.next-item {
+  font-size: 10px;
+  align-items: center;
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.next-item:hover {
+  cursor: pointer;
+}
+
+/* Phần thân 2 */
+.part2 {
+  margin: 0;
+  background-color: #090523;
+  height: 900px;
+  padding: 10px 100px;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.content2-img {
+  float: left;
+  margin-right: 20px;
+  height: fit-content;
+}
+
+.caption-2 {
+  font-size: 20px;
+}
+
+.main-content2 {
+  display: flex;
+  flex-direction: column;
+  clear: right;
+  gap: 20px;
+}
